@@ -1,0 +1,32 @@
+.showInfo {
+    border: 0px;
+    color:#08c;
+}
+tr:nth-child(2n-1) input{
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(2n) input{
+    background-color: #fff;
+}
+
+#visit_img {
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    display: inline-block;
+}
+#visit_name,#visit_major,#visit_description,#visit_score,#visit_organization,#visit_nickname{
+    display: block;
+    font-size: 2rem;
+    line-height: 30px;
+}
+#visit_name {
+    padding-top:20px;
+}
+#history{
+    display:none;
+}
+#now{
+    display:none;
+}

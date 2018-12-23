@@ -1,0 +1,92 @@
+.navbar {
+  min-height: 70px;
+}
+.navbar-brand {
+  height: 70px;
+  padding:25px 15px;
+}
+
+@media screen and (min-width:768px){
+  .navbar-nav > li > a {
+    padding-top:25px;
+    padding-bottom:25px;
+  } 
+}
+
+.navbar-toggle {
+  margin-top:18px;
+  margin-bottom:18px;
+}
+
+.img-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  margin: 15px 5px 15px 5px;
+}
+
+.id_style{
+  color:#fff;
+  display: initial;
+  font-size:1.5rem;
+  padding-top:30px;
+}
+
+@media screen and (max-width:767px){
+  .id_style{
+    display: none;
+  }
+}
+
+.redpoint
+{
+  display: none;
+  height:16px;
+  width:16px;
+  border-radius:16px;
+  text-align:center;
+  color:#fff;
+  background:red;
+  line-height:16px;
+}
+.comments {
+  padding-top:25px;
+  padding-bottom: 25px;
+  display: inline-block;
+}
+
+.comments a {
+  text-decoration:none;
+  color:#9d9d9d;
+}
+
+.comments a:hover,a:active{
+  text-decoration:none;
+  color:#ffffff;
+}
+.btn_set{
+    display: inline-block;
+  }
+.con {
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
+    min-height: 300px;
+    overflow-y: auto;
+    max-height: 450px;
+}
+
+.source-panel {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.source-label {
+    font-size: 1.65rem;
+}
+
+.source-info {
+    font-size: 1.65rem;
+    color: blue;
+}

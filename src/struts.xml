@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="cn.w3cschool.struts2" extends="struts-default">
+
+		<action name="login" class="com.thinkspirit.blog.Login"
+			method="execute">
+			<result name="success" type="redirect">
+				<param name="location">/index</param>
+			</result>
+			<result name="error">/error.jsp</result>
+			<result name="wrong_password" type="redirect">
+				<param name="location">/wrong_password</param>
+			</result>
+		</action>
+
+		<action name="wrong_password"
+			class="com.thinkspirit.blog.Login" method="wrong_password">
+			<result name="success">/login.jsp</result>
+		</action>
+
+		<action name="index" class="com.thinkspirit.blog.Index"
+			method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+
+		<action name="index_search" class="com.thinkspirit.blog.Index"
+			method="search">
+		</action>
+
+		<action name="blog" class="com.thinkspirit.blog.Blog"
+			method="execute">
+			<result name="success">/blog.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+
+		<action name="blog_edit" class="com.thinkspirit.blog.Blog"
+			method="execute">
+			<result name="success">/blog_edit.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+
+		<action name="blog_edit_post" class="com.thinkspirit.blog.Blog"
+			method="edit_post">
+		</action>
+
+	</package>
+</struts>

@@ -1,0 +1,40 @@
+.form-inline {
+    display:inline-block;
+}
+
+.fix_position{
+    cursor: pointer;
+    top:0px;
+}
+
+.dropdown{
+    display:inline-block;
+}
+
+.tag_select{
+    line-height: 30px;
+    cursor: pointer;
+}
+.tag_show{
+    /* tr.line-height = span.line-height/2+22 */
+    line-height: 17px;
+    cursor: default;
+}
+.page_set{
+    text-align:center;
+}
+
+@media screen and (max-width:767px){
+    .form-inline {
+        display:inline-flex;
+        position:relative;
+        top:13px;
+    }
+    .input-group .form-control{
+        width:auto;
+    }
+    .input-group-addon, .input-group-btn{
+        width:auto;
+    }
+    
+}

@@ -1,0 +1,52 @@
+#add_contest {
+    cursor: pointer;
+}
+
+#add_contest:hover {
+    text-decoration: none;
+}
+.form-group {
+    text-align: center;
+    margin:auto;
+    margin-bottom: 10px;
+}
+#ct_name{
+    display: inline-block;
+    width:75%;
+    margin-left:10px;
+}
+#ct_lockrankbefore{
+    display: inline-block;
+    width:70%;
+    margin-left:10px;
+}
+
+.time_control{
+    position: absolute;
+    left:37px;
+    line-height: 34px;
+}
+.controls {
+    display: inline-block;
+}
+.input-prepend{
+    top:0px;
+    left:93px;
+}
+#reservationtime {
+    width:73%;
+}
+.btn-cancel{
+    margin-left: 20px;
+}
+.label_content {
+    position: absolute;
+    margin-top: 5px;
+    left: 38px;
+}
+#ct_description {
+    display: inline-block;
+    width:75%;
+    resize: none;
+    margin-left: 70px;
+}

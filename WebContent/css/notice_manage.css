@@ -1,0 +1,38 @@
+#add_notice {
+    cursor: pointer;
+}
+
+#add_notice:hover {
+    text-decoration: none;
+}
+
+.edit_notice {
+    cursor: pointer;
+}
+
+.form-group {
+    text-align: center;
+    margin:auto;
+    margin-bottom: 10px;
+}
+#n_title,#n_content,#n_source{
+    display: inline-block;
+    width:75%;
+    margin-left:10px;
+}
+.label_content {
+    position: absolute;
+    margin-top: 5px;
+    left: 38px;
+}
+#n_content {
+    resize: none;
+    margin-left: 70px;
+}
+.is_top {
+    margin-left: -260px;
+}
+
+.btn-cancel{
+    margin-left: 20px;
+}

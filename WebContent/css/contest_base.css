@@ -1,0 +1,16 @@
+.nav_style {
+    margin:0 auto;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+  width:auto;
+}
+
+.set_width {
+    width:100%;
+}
+
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+
+

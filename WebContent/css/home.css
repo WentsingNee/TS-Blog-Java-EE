@@ -1,0 +1,309 @@
+#main{
+    width:100%;
+    height:80%;
+}
+.userInfo{
+    position:relative;
+    height:200px;
+    padding-bottom:10px;
+    margin-top:10px;
+    border-bottom: 1px solid #edf1f2;
+}
+#image{
+    border-radius:50%;
+    height:100px;
+    width:100px;    
+    margin-top:50px;
+    margin-bottom:50px;
+}
+@media (max-width:768px){
+    #image {
+        display: none;
+    }
+}
+@media (min-width:769px){
+    #image {
+        display:inline-block;
+    }
+}
+.welcome{
+    display: inline-block;
+    position:absolute;
+    margin-left:20px;
+    margin-top:50px;
+    margin-bottom:50px;   
+}
+@media (max-width:768px){
+    .welcome {
+        margin-left:0px;
+    }
+}
+
+@media (min-width:769px){
+    .welcome {
+        margin-left:20px;
+    }
+}
+.welcome h2,h4{
+    display:inline-block;
+}
+.welcome h2{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.ac-chart{
+     width:350px;
+     height:200px;
+     float:right;
+}
+
+.modification{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    margin-top:5px;
+}
+#bigimage{
+    display:none;
+    position:absolute; 
+    z-index:1000; 
+    left:400px;
+    bottom:-250px;
+    background:#ccc;
+}
+#bimage{
+
+    height:400px;
+    width:400px;
+}
+.show-notice{
+    position:relative;
+    padding-bottom:10px;
+    margin-top:10px;
+    display:inline-block;
+    width:600px;
+    
+}
+#submit_image {
+     width:500px;
+     float:right;
+     height:400px;
+}
+@media (max-width:1199px){
+    #submit_image{
+        display: none;
+    }
+}
+@media (min-width:1200px){
+    #submit_image{
+        display: block;
+    }
+}
+.show-notice a{
+    text-decoration:none;
+    color:#08c;
+    font-size:18px;
+    display:block;
+    margin:5px;
+    width:500px;
+}
+.show-notice a:hover,a:focus{
+    text-decoration:none;
+    color:#08c;
+}
+#notice1 , #notice2{
+    display:none;   
+}
+.more-notice a:hover , a:focus{
+    color: #e98071;
+    text-decoration: none;
+}
+.show-more-notice{
+    color: #e98071;
+}
+.show-more{
+    height:16px;
+    width:16px;
+}
+.help-you {
+    border-top:1px solid #edf1f2;
+}
+.help-you h3 a{
+    text-decoration: none;
+    color:#08c;
+}
+.help-you h3 a:hover , a:focus{
+    text-decoration: none;
+    color:#08c;
+}
+.sp
+{
+    position:relative;
+    left:80px;
+    top:30px;
+}
+.in1
+{
+    width:250px;
+    height:60px;
+    position:relative;
+    left:25px;
+    top:40px;
+}
+.sure1
+{
+    position:relative;
+    left:150px;
+    top:50px;
+}
+
+.cancel1
+{
+    position:relative;
+    left:40px;
+    top:50px;
+}
+#cutImage{
+    display: none;
+    position:absolute; 
+    z-index:1000;
+    width:450px; 
+    height:450px;
+    left:300px;
+    bottom:-300px;
+   /* border-style:1px solid; 
+    border-width:5px; 
+    border-radius: 6px;*/
+}
+#result{
+    border-style: 1px solid;
+    border-radius:6px;
+    
+}
+.cancel0
+{
+    position:relative;
+    bottom:-30px;
+    left:80px;
+    width:70px;
+    height:33px;
+    font-size:16px;
+    padding:0;
+}
+.sure0
+{
+    position:relative;
+    left:150px;
+    bottom:-30px;
+    width:70px;
+    height:33px;
+    font-size:16px;
+    padding:0;
+}
+#new_u_nickname{
+    display:none; 
+    position:absolute; 
+    z-index:1000; 
+    left:450px;
+    top:150px; 
+    width:300px; 
+    height:200px;
+    background:#fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+#new_u_description{
+    display:none; 
+    position:absolute; 
+    z-index:1000; 
+    left:450px;
+    top:150px; 
+    width:300px; 
+    height:200px;
+    background:#fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+#accept_image{
+    min-width:200px;
+    height:200px;
+}
+
+@media (max-width:1199px){
+    #accept_image{
+        display: none;
+    }
+}
+@media (min-width:1200px){
+    #accept_image{
+        display: block;
+    }
+}
+
+.sl-custom-file
+{
+    position:relative;
+    display:inline-block;
+    zoom:1;
+    cursor:pointer;
+    overflow:hidden;
+    vertical-align:middle;
+}
+.sl-custom-file .ui-input-file
+{
+    position:absolute;
+    right:0;
+    top:0;
+    zoom:30;
+    height:100%;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -ms-filter:"alpha(opacity=0)";
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+    #uploadForm {
+        display: none;
+    }
+}
+
+@media (min-width:769px){
+    #uploadForm {
+        display: inline-block;
+    }
+}
+ .uploaddiv
+ {
+   position:relative;
+   bottom:38px;
+   left:5px;
+ }
+ .uploadbtn
+ {
+    width:100px;
+    height:33px;
+    font-size:16px;
+    padding:0;
+    
+ }
+
+@media (max-width:1199px){
+    footer {
+        width:100%;
+    }
+}
+#message {
+    resize: none;
+}
+@media (max-width:768px){
+    #message {
+    width:100%;
+    }
+}
+
+@media (min-width:769px){
+    #message {
+    width:50%;
+    }
+}

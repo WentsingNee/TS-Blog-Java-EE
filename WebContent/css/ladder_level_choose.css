@@ -1,0 +1,421 @@
+.radio-custom,
+.checkbox-custom {
+    margin-left: -20px;
+}
+
+.radio-custom input[type=radio],
+.checkbox-custom input[type=checkbox] {
+    position: absolute;
+    left: -9999em;
+}
+
+.radio-custom>i:before,
+.checkbox-custom>i:before {
+    font-size: 1.333em;
+    vertical-align: -10%;
+    margin-left: 0;
+    margin-right: 4px;
+    color: #ddd;
+}
+
+.radio-custom>i.checked:before,
+.checkbox-custom>i.checked:before {
+    color: #92cf5c;
+}
+
+.radio-custom>i.disabled:before,
+.checkbox-custom>i.disabled:before {
+    color: #eee;
+}
+
+.radio-custom>i.checked:before {
+    content: '\f111';
+}
+
+.checkbox-custom>i.checked:before {
+    content: '\f046';
+}
+
+.spinner .input-group-btn {
+    display: table-cell;
+    min-width: 25px;
+}
+
+.spinner .input-group-btn .btn {
+    width: 25px;
+    padding: 0;
+    font-size: 12px;
+    margin-left: -1px;
+    line-height: 1;
+    height: 17px;
+    overflow: hidden;
+    border-radius: 0 4px 0 0 !important;
+}
+
+.spinner .input-group-btn .btn+.btn {
+    height: 18px;
+    border-radius: 0 0 4px 0 !important;
+}
+
+.spinner .input-sm+.input-group-btn .btn {
+    font-size: 10px;
+    height: 15px;
+}
+
+.spinner .input-sm+.input-group-btn .btn+.btn {
+    height: 16px;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+}
+
+.pillbox {
+    border: 1px solid #e0e4e8;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.pillbox ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pillbox li {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    padding: 6px 8px;
+    cursor: pointer;
+    margin: 2px;
+    float: left;
+}
+
+.pillbox li:after {
+    content: " x";
+    font-size: 11px;
+    font-weight: normal;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.pillbox li:hover:after {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.pillbox input {
+    border: none;
+    outline: 0;
+    padding: 2px;
+    min-height: 20px;
+    width: auto;
+    display: inline-block;
+    box-shadow: none;
+    background: transparent;
+}
+
+.datagrid tfoot th {
+    font-weight: normal;
+}
+
+.datagrid tfoot .grid-pager .combobox {
+    max-width: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.datagrid tfoot .dropdown-menu {
+    min-width: 60px;
+    text-align: left;
+}
+
+.datagrid tbody {
+    height: 256px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#selectTextSize {
+    position: absolute;
+    top: 0;
+    display: none;
+    visibility: hidden;
+}
+
+.wizard {
+    font-size: 14px;
+    padding: 0;
+    background-color: #f7f8f9;
+    border-bottom: 1px solid #ebeff6;
+}
+
+.step-content {
+    padding: 15px;
+}
+
+.wizard .badge {
+    margin-right: 4px;
+}
+
+.wizard ul li.complete,
+.wizard ul li.complete:hover {
+    cursor: pointer;
+    background: #f1f5f9;
+}
+
+.wizard ul li.complete:after {
+    border-left-color: #f1f5f9;
+}
+
+.wizard ul {
+    padding: 0;
+    margin: 0;
+    list-style: none outside none;
+}
+
+.wizard ul li {
+    position: relative;
+    float: left;
+    padding: 0 15px 0 25px;
+    margin: 0;
+    color: #999999;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+
+.wizard.wizard-vertical {
+    float: left;
+    border-bottom: none;
+}
+
+.wizard.wizard-vertical+.step-content {
+    zoom: 1;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.wizard.wizard-vertical ul li {
+    position: relative;
+    float: none;
+    border-bottom: 1px solid #e0e4e8;
+    padding-left: 15px;
+}
+
+.wizard ul li:first-child {
+    padding-left: 15px;
+    border-radius: 4px 0 0 0;
+}
+
+.wizard .actions {
+    float: right;
+    margin: 8px 10px 0 0;
+}
+
+.wizard ul li:before,
+.wizard ul li:after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    border: 20px solid transparent;
+    border-right: 0;
+    border-left: 10px solid #e0e4e8;
+    border-left-color: rgba(0, 0, 0, 0.05);
+    z-index: 1;
+}
+
+.wizard ul li:after {
+    right: -9px;
+    border-left-color: #f7f8f9;
+    z-index: 2;
+}
+
+.wizard ul li.active {
+    cursor: pointer;
+    color: #3a87ad;
+    background: #fff;
+}
+
+.wizard ul li.disabled {
+    cursor: not-allowed;
+}
+
+.wizard ul li.active:after {
+    border-left-color: #fff;
+}
+
+.step-content .step-pane {
+    display: none;
+}
+
+.step-content .step-pane.active {
+    display: inherit;
+}
+
+.bg-info {
+    background-color: #23b7e5;
+    color: #d9f3fb;
+}
+
+.bg-info.lter,
+.bg-info .lter {
+    background-color: #55c3e6;
+}
+
+.wizard ol li {
+    cursor: pointer;
+}
+
+.wizard ol li.active {
+    color: #3a87ad;
+    background: #fff;
+}
+
+.m-md {
+    margin: 20px;
+}
+
+.panel {
+    border-radius: 2px;
+}
+
+.wrapper-xs {
+    padding: 5px;
+}
+
+.panel-heading {
+    border-radius: 2px 2px 0 0;
+}
+
+.m-n {
+    margin: 0 !important;
+}
+
+.m-r-xs {
+    margin-right: 5px;
+}
+
+.text-success {
+    color: #27c24c;
+}
+
+.text-md {
+    font-size: 16px;
+}
+
+.panel-heading .nav {
+    margin: -10px -15px;
+}
+
+.text-muted {
+    color: #99a6ad;
+}
+
+.text-active,
+.active>.text,
+.active>.auto .text {
+    display: none !important;
+}
+
+.active>.text-active,
+.active>.auto .text-active {
+    display: inline-block !important;
+}
+
+.no-padder {
+    padding: 0 !important;
+}
+
+.line-lg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.panel {
+    border-radius: 2px;
+    border-color: #ebeff6;
+}
+
+.panel-heading {
+    border-color: #ebeff6;
+    background-color: #fff;
+    border-radius: 2px 2px 0 0;
+}
+
+.m-n {
+    margin: 0;
+}
+
+.h6 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.m-r-xs {
+    margin-right: 5px;
+}
+
+.text-success {
+    color: #92cf5c;
+}
+
+.panel-heading .nav {
+    font-size: 13px;
+    margin: -10px -15px -11px;
+    border: none;
+}
+
+.panel-heading .nav>li>a {
+    border-radius: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.text-muted {
+    color: #979797;
+}
+
+.text-active,
+.active>.text,
+.active .auto .text {
+    display: none !important;
+}
+
+.active>.text-active,
+.active .auto .text-active {
+    display: inline-block !important;
+}
+
+.line-lg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line {
+    *width: 100%;
+    height: 2px;
+    margin: 10px 0;
+    font-size: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-width: 0;
+    border-top: 1px solid #eaedef;
+}
+
+.wizard ol li.disabled {
+    cursor: not-allowed;
+}
+
+.wizard ol li.active:after {
+    border-left-color: #fff;
+}

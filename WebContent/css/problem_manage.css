@@ -1,0 +1,21 @@
+.form-inline {
+    display:inline-block;
+}
+
+.position_set{
+    text-align:center;
+}
+
+.fix_position{
+    cursor: pointer;
+    top:0px;
+}
+
+.tag_select{
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.set_margin{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,113 @@
+.body_style{
+    width:100%;
+    padding:0;
+}
+.box{
+    position:relative;
+    background: #111;
+    color: #222;
+    height:150px;
+    text-align:center;
+    bottom:9px;
+    overflow: hidden;
+} 
+.con{
+    position:relative;
+    color:#B8860B;
+    font-size:4em;
+    line-height: 150px;
+}
+
+#tab ul li a{ 
+    text-decoration:none; 
+    color:black;
+}
+a:hover{
+    text-decoration:none;
+}
+#tab , .message_div{
+    width:80%;
+    margin:0 auto;
+}
+.h2_style {
+    width:80%;
+    margin:0 auto;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+.hide{display:none;}
+.more-info{
+    width:100%;
+    height:250px;
+    padding-top:20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    line-height: 30px;
+    overflow-y: scroll;
+}
+
+.code_example{
+    margin:50px;
+
+}
+.p1{
+     width:40%;
+     height:100%;
+     display:inline-block;
+     overflow: hidden;
+     padding-left:10px;
+}
+
+.p2{
+     width:50%;
+     height:100%;
+     display:inline-block;
+     overflow: hidden;
+}
+
+
+
+.p1 p{
+    line-height: 20px;
+}
+.p2 p{
+    line-height: 20px;
+}
+
+.exp {
+    width:80%;
+    margin:0 auto;
+
+}
+
+
+.code_exp {
+    margin-top:10px;
+    width:100%;
+    display:inline-block;
+}
+.code_exp_java{
+    margin-top:10px;
+    width:100%;
+    /* display:inline-block; */
+}
+@media screen and (max-width:768px){
+    .code_exp {
+        width:100%;
+    }
+}
+
+.email_help {
+    text-align:center;
+}
+#message {
+    resize: none;
+    margin-bottom: 10px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+p {
+    margin: 10px 10px;
+}

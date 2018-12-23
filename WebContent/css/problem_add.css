@@ -1,0 +1,102 @@
+.position_set{
+    text-align:center;
+}
+.color_red{
+    color:red;
+}
+.newtagdiv
+{
+  display:none; 
+  position:absolute; 
+  z-index:1000; 
+  left:35%;
+  top:25%; 
+  width:300px; 
+  height:200px;
+  background:#fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;        
+}
+.sp
+{
+  position:relative;
+  left:100px;
+  top:30px;
+}
+.in
+{
+  width:250px;
+  height:60px;
+  position:relative;
+  left:25px;
+  top:40px;
+}
+.sure
+{
+  width:55px;
+  height:35px;
+  position:relative;
+  left:150px;
+  top:50px;
+  
+}
+.cancel
+{
+  width:55px;
+  height:35px;
+  position:relative;
+  left:30px;
+  top:50px;        
+}
+
+#tag {
+    height:90px;
+    margin-bottom: 15px;
+    
+}
+
+
+.tag_style
+{
+  border: 1px solid #ccc;
+  height:90px;
+  border-radius: 4px;  
+  overflow: auto;
+}
+#id{
+    width:100%;
+    display:block;
+}
+.div_set {
+    height:50px;
+}
+.div_set a{
+    line-height: 30px;
+}
+
+.filename_in {
+    background: #fff;
+    color:#333;
+    border:1px solid transparent;
+    border-radius: 4px;
+}
+.file_upload_div {
+    margin-top: 20px;
+    border-top:1px dashed #333;
+    padding-top:20px;
+}
+.file_upload {
+    width:175px;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#show_img {
+    line-height: 30px;
+}
+
+#email_check {
+    font-size:15px;
+    color: red;
+    line-height: 30px;
+}

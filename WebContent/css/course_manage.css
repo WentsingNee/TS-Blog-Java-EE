@@ -1,0 +1,36 @@
+#add_course {
+    cursor: pointer;
+}
+
+#add_course:hover {
+    text-decoration: none;
+}
+.form-group {
+    text-align: center;
+    margin:auto;
+    margin-bottom: 10px;
+}
+#c_name,#c_teacher{
+    display: inline-block;
+    width:75%;
+    margin-left:10px;
+}
+
+.time_control{
+    position: absolute;
+    left:37px;
+    line-height: 34px;
+}
+.controls {
+    display: inline-block;
+}
+.input-prepend{
+    top:0px;
+    left:93px;
+}
+#reservationtime {
+    width:73%;
+}
+.btn-cancel{
+    margin-left: 20px;
+}
